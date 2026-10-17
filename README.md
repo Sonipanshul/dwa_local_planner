@@ -14,7 +14,7 @@ It drives a simulated TurtleBot3 to a goal while avoiding obstacles detected by 
 ## Build
 ```bash
 mkdir -p ~/dwa_ws/src && cd ~/dwa_ws/src
-git clone https://github.com/<your-username>/dwa-local-planner-ros2.git dwa_planner
+git clone https://github.com/Sonipanshul/dwa-local-planner-ros2.git dwa_planner
 cd ~/dwa_ws
 colcon build --symlink-install
 source install/setup.bash
